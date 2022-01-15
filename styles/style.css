@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@500&family=Raleway:wght@400;500;700&display=swap');
+/* -------------------common css------------------- */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color:#3A3A3A;
+}
+.container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 30px;
+}
+
+/*--------- heading css start ------------------- */
+nav{
+    height:40px;
+    display: flex;
+    align-items: center;
+}
+
+ .banner{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: calc(100vh - 40px);
+}
+.banner-left{
+    width:50%;
+}
+.banner-right{
+    width:50%;
+    margin-left:133px;
+    
+    box-shadow:10px 10px 40px gray;
+    border-radius: 50%;
+}
+.banner-right img{
+    width:440px;
+    height:414px;
+}
+.banner-heading{
+    font-size:40px;
+    position: relative;
+    color:transparent;
+    white-space: nowrap;
+    margin-bottom: 16px;
+    
+}
+.heading-title p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    
+}
+.primary-button{
+    background: #E02C6D;
+    margin-top: 16px;
+    outline: 0;
+    border:0;
+    padding:15px 20px;
+    border-radius: 25px;
+}
+.primary-button a{
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+   
+}
+.banner-heading::before{
+    content: 'Start my journey as Influencer';
+   position: absolute;
+   animation: typing 8s linear infinite;
+   color:#3A3A3A;
+}
+@keyframes typing{
+    0%{
+        content:'S|';
+    }
+    2%{
+        content:'St|';
+    }
+    4%{
+        content:'Sta|';
+    }
+    6%{
+        content:'Sta|';
+    }
+    8%{
+        content:'Star|';
+    }
+    10%{
+        content:'Start |';
+    }
+    12%{
+        content:'Start m|';
+    }
+    14%{
+        content:'Start my |';
+    }
+    16%{
+        content:'Start my j|';
+    }
+    18%{
+        content:'Start my jo|';
+    }
+    20%{
+        content:'Start my jou|';
+    }
+    22%{
+        content:'Start my jour|';
+    }
+    24%{
+        content:'Start my journ|';
+    }
+    26%{
+        content:'Start my journe|';
+    }
+    28%{
+        content:'Start my journey |';
+    }
+    30%{
+        content:'Start my journey a|';
+    }
+    32%{
+        content:'Start my journey as|';
+    }
+    34%{
+        content:'Start my journey as I|';
+    }
+    36%{
+        content:'Start my journey as In|';
+    }
+    38%{
+        content:'Start my journey as Inf|';
+    }
+    40%{
+        content:'Start my journey as Infl|';
+    }
+    42%{
+        content:'Start my journey as Influ|';
+    }
+    44%{
+        content:'Start my journey as Influe|';
+    }
+    46%{
+        content:'Start my journey as Influen|';
+    }
+    48%{
+        content:'Start my journey as Influenc|';
+    }
+    50%{
+        content:'Start my journey as Influence|';
+    }
+    52%{
+        content:'Start my journey as Influencer|';
+    }
+    54%{
+        content:'Start my journey as Influenc|';
+    }
+    56%{
+        content:'Start my journey as Influen|';
+    }
+    58%{
+        content:'Start my journey as Influe|';
+    }
+    60%{
+        content:'Start my journey as Influ|';
+    }
+    62%{
+        content:'Start my journey as Inf|';
+    }
+    64%{
+        content:'Start my journey as In|';
+    }
+    66%{
+        content:'Start my journey as I|';
+    }
+    68%{
+        content:'Start my journey a|';
+    }
+    70%{
+        content:'Start my journey |';
+    }
+    72%{
+        content:'Start my journe|';
+    }
+    74%{
+        content:'Start my journ|';
+    }
+    76%{
+        content:'Start my jour|';
+    }
+    78%{
+        content:'Start my jou|';
+    }
+    80%{
+        content:'Start my jo|';
+    }
+    82%{
+        content:'Start my j|';
+    }
+    84%{
+        content:'Start my|';
+    }
+    86%{
+        content:'Star m|';
+    }
+    88%{
+        content:'Start|';
+    }
+    90%{
+        content:'Star|';
+    }
+    92%{
+        content:'Sta|';
+    }
+    94%{
+        content:'st|';
+    }
+    96%{
+        content:'s|';
+    }
+    98%,100%{
+        content:'|';
+    }
+    
+}
+/* -------------------popular collection start ------------------------- */
+.collection-title{
+    font-size :33px ;
+    text-align: center;
+    margin:30px 0;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:60px;
+    margin-bottom: 40px;
+}
+.collection{
+    height:474px;
+    width:329px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 16px gray;
+}
+.collection img{
+    width:300px;
+    height: 250px;
+    margin: 17px 15px 25px 13px;
+}
+.item-content{
+    margin-left:14px;
+}
+.item-content h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.item-content h5{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.item-content .fa-star.full,.fa-star-half-alt.full{
+    font-size:16px;
+    color:orange;
+    margin-bottom: 12px;
+}
+.item-content h6{
+    margin-bottom:6px;
+}
+span{
+    margin-left: 10px;
+    font-weight: 600;
+}
+/* ---------------another button css--------------- */
+#see-button{
+    display: flex;
+    justify-content: right;  
+}
+.see-button{
+    
+    outline: 0;
+    border:0;
+    padding:10px 10px;
+    margin-right: 30px;
+    background-color: transparent;
+    margin-bottom: 50px;
+}
+.see-button a{
+    text-decoration: none;
+    color: #E02C6D;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding:10px;
+}
+/* -----------------customer section start --------------- */
+#customer-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.customer{
+    width:400px;
+    height:500px;
+    overflow: hidden;
+    position: relative;
+}
+.customer-img{
+    width:100%;
+    
+    border-radius: 10px;
+    border:3px solid black;
+    position: absolute;
+    top:0;
+}
+.customer:hover img{
+    transform: scale(1.2);
+    transition: transform 0.8s linear;    
+}
+.customer button{
+    position:absolute;
+    background-color: #E02C6D;
+    padding: 15px 15px;
+    outline: 0;
+    border:0;
+    top: 50px;
+    right:100px;
+    border-radius: 20px;
+}
+.customer a{
+    text-decoration: none;
+    color: white;
+     padding:15px 15px;
+}
+.cart-content h3{
+    font-size:24px;
+    margin-bottom: 16px;
+}
+.cart-content p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+form input{
+    margin-bottom: 6px;
+    border-radius: 20px;
+    padding: 8px;
+}
+
