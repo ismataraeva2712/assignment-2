@@ -457,7 +457,7 @@ footer p .fab{
     nav{
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
     }
     
     .banner{
@@ -489,7 +489,7 @@ footer p .fab{
     .collections{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-row-gap: 20px;
+        grid-gap: 20px;
  padding-left:140px;
     }
     .customer{
